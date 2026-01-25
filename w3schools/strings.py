@@ -5,3 +5,4 @@ print(s.replace("world", "Python"))
 a = input("First: ")
 b = input("Second: ")
 print(a, b, sep="***")
+#Examples of working with strings
