@@ -1,3 +1,6 @@
+## Practice2 Structure
+
+```
 Practice2/
 ├── boolean/
 │   ├── boolean_intro.py
@@ -16,3 +19,4 @@ Practice2/
 │   ├── for_break.py
 │   └── for_continue.py
 └── README.md
+```
