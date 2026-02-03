@@ -1,8 +1,3 @@
-Practice1/
-├── python-basics/
-│   ├── hello_world.py
-│   ├── variables.py
-│   ├── data_types.py
 Practice2/
 ├── boolean/
 │   ├── boolean_intro.py
@@ -21,6 +16,3 @@ Practice2/
 │   ├── for_break.py
 │   └── for_continue.py
 └── README.md
-
-
-
