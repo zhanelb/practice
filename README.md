@@ -1,4 +1,4 @@
-## Practice2 Structure
+## Practice3 Structure
 
 ```
 Practice-03/
@@ -22,5 +22,5 @@ Practice-03/
 │   ├── super_function.py
 │   ├── method_overriding.py
 │   └── multiple_inheritance.py
-└── README.md (this file)
+└── README.md 
 ```
