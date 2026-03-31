@@ -1,10 +1,11 @@
-## Practice4 Structure
+## Practice8 Structure
 
 ```
-Practice7/
+Practice8/
 ├── phonebook.py
+├── functions.sql
+├── procedures.sql
 ├── config.py
-├── connect.py
-└── contacts.csv
+└── connect.py
 
 ```
