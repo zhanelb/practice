@@ -1,0 +1,5 @@
+n=int(input())
+m=map(int,input().split())
+even=map(lambda x:x%2==0, m)
+res=sum(even)
+print(res)
