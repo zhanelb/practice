@@ -5,6 +5,7 @@ pygame.init()
 pygame.mixer.init()
 pygame.mixer.music.load("snake.mp3")
 pygame.mixer.music.play(-1)
+eat_sound = pygame.mixer.Sound("snakebg.mp3")
 WIDTH, HEIGHT = 600, 600
 CELL_SIZE = 20
 
@@ -118,9 +119,9 @@ while running:
     # eat food
     # food disappears after time
     if snake.eat(food):
+        eat_sound.play()
         score += food_weight   # weigth of food
         foods_needed -= 1
-
         food = random_food(snake.body)
         food_weight = random.choice([1, 2, 3])  # new food with new weight
         food_timer = 0  # сброс таймера
